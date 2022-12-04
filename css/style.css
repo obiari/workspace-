@@ -1,0 +1,286 @@
+/*background*/
+html {
+    background-image: linear-gradient(to left top, blue, rgb(67, 67, 240, .6), rgb(148, 148, 239, .6), rgb(188, 152, 235, .6), rgb(162, 163, 232), rgb(100, 98, 132, .6), 
+    rgb(149, 126, 231), rgb(104, 92, 236), rgb(51, 21, 116), rgb(46, 7, 125, .6));
+    backdrop-filter: blur(5px);
+}
+/*nav and header*/
+:focus, :visited {
+    box-shadow: -10px 10px 10px #f443ee7b;
+ }
+
+nav {
+    background-color: rgb(234, 238, 246);
+    padding: 24px 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+
+ nav a {
+    color: rgb(77, 25, 234);
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+ }
+
+ nav a:hover {
+    text-decoration: underline;
+    box-shadow: -10px 5px 30px #f443ee7b;
+    font-style: italic;
+ }
+ 
+ nav a:focus {
+    text-decoration: underline;
+ }
+ 
+ nav li {
+    display: inline;
+    padding-left: 24px;
+ }
+
+ .current_page {
+    color: #a039f4;
+    text-decoration: underline;
+ }
+/*skip*/
+
+.skip {
+    background-color: white;
+    padding: 8px;
+    position: absolute;
+    top: -40px;
+ }
+
+ .skip:focus {
+    /* position: absolute; */
+    top: 0px;
+ }
+
+/*footers*/
+
+footer {
+    text-align: center;
+    background-color: #b694d0;
+    padding: 10px 0;
+    color: white;
+ }
+ 
+ footer a {
+     color: white;
+  }
+  
+ /*banners (home)*/
+
+ .home-banner {
+    background-image:url("../images/background_image_home.webp");
+    border-radius: 5px;
+    box-shadow: 0px 30px 30px rgba(253, 0, 190, 0.485);
+    font-size: 50px;
+    color: rgb(206, 194, 246);
+    background-color: #AA3E98;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+ }
+
+ .home-banner h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bolder;
+ }
+ 
+ .home-banner h4{
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 3;
+    font-size: 30px;
+    text-align: center;
+    color: bisque;
+    margin: 0;
+ }
+
+/*banner (music)*/
+/*banner (book)*/
+/*banner (movie)*/
+
+ /*main (home)*/
+
+ .juicy-plum-explained{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700000;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 50px 70px 50px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 20px 20px 50px rgba(67, 21, 235, 0.5);
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255,0.5);
+    border-left: 1px solid rgba(255, 255, 255,0.5);
+    backdrop-filter: blur(5px);
+ }
+
+ .juicy-plum-explained p, .juicy-plum-explained h4{
+    color: #f4f4f6;
+    text-align: center;
+    font-size: medium;
+    line-height: 17px;
+ }
+ 
+ /*
+ .juicy-plum-explained {
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center-evenly;
+    flex-wrap: wrap;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0,0.5);
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255,0.5);
+    border-left: 1px solid rgba(255, 255, 255,0.5);
+    backdrop-filter: blur(5px);
+    font-size: 400px;
+ }
+*/
+ .introduction{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center-evenly;
+    flex-wrap: wrap;
+    box-shadow: 20px 20px 50px rgba(42, 16, 241, 0.5);
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255,0.5);
+    border-left: 1px solid rgba(255, 255, 255,0.5);
+    backdrop-filter: blur(5px);
+    font-size: 400px;
+ }
+
+ .introduction h2{
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+ }
+
+ .title{
+    font-size: small;
+ }
+
+ .intorduction p{
+    font-size: small;
+    display: grid;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    gap: 5px;
+    box-shadow: 0px 30px 30px rgba(38, 0, 253, 0.485);
+    background-color: rgba(3, 16, 46, 0.924);
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 0;
+    width: 500px; 
+/*
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 50px 70px 50px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 20px 20px 50px rgb(0, 0, 0,0.5);
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255,0.5);
+    border-left: 1px solid rgba(255, 255, 255,0.5);
+    backdrop-filter: blur(5px);
+    border-radius: 10px; */
+ }
+ 
+
+ .introduction li:hover{
+    box-shadow: -10px 10px 10px #f443ee7b;
+ }
+  /*
+ .tools, .obiari, .sam, .container{
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 50px 70px 50px;
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 20px 20px 50px rgba(38, 0, 253, 0.485);
+    overflow: hidden;
+    border-top: 1px solid rgba(255, 255, 255,0.5);
+    border-left: 1px solid rgba(255, 255, 255,0.5);
+    backdrop-filter: blur(5px);
+    size: 10px;
+ }
+
+.tools a, .card a{
+    color: #2B2B2B;
+ }
+
+ .tools a:visited, .card a:visited{
+    color: #fbd4c6;
+ }
+
+ /*contact form*/
+ input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+input[type=submit] {
+    background-color: #542ff9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+input[type=submit]:hover {
+    background-color: #f92fd4;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+
+        /* media quearies (home)*/
+
+/*main (music)*/
+
+         /* media quearies (music)*/
+
+/*main (book)*/
+
+         /* media quearies (book)*/
+
+/*main (movie)*/
+
+         /* media quearies (movie)*/
+
+ 
